@@ -1,0 +1,202 @@
+.location>h5{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+.location>p{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+}
+.vertical-line{
+    height: 55px;
+    border-left: 1px solid #f2f2f2;
+}
+.search-div{
+    padding: 0px 12px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 12px;
+    background: rgb(248, 248, 248);
+    color: rgb(130, 130, 130);
+}
+.search-div>input{
+    border: none;
+    background-color: transparent;
+    width: 40vw;
+    height: 45px;
+}
+::placeholder{
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+.my-cart{
+    background-color: #0c831f !important;
+    font-size: 14px !important;
+}
+.hero-section>img{
+    width: 90%;
+}
+.my-catagories{
+    width: 90%;
+}
+.my-container{
+    margin: auto;
+    width: 90%;
+    overflow-x: scroll;
+}
+.my-list{
+    white-space: nowrap;
+}
+.my-list>img{
+    padding-inline: 10px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.catagory-section{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.catagory-section-row{
+    margin-top: 20px;
+    max-width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.my-card{
+    width: 179px;
+    margin-inline: 10px;
+}
+.my-card-time{
+    width: fit-content;
+    border-radius: 4px;
+    padding: 0px 4px;
+    background-color: rgb(248, 248, 248);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+}
+.my-card-title{
+    overflow: hidden;
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+}
+.my-card-weight{
+    color: #666666;
+    font-size: 13px;
+}
+.price{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 10px;
+}
+.mrp{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;  
+}
+::-webkit-scrollbar-button{
+    display: block;
+}
+.my-footer{
+    width: 90%;
+    margin: auto;
+}
+.row-1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+table{
+    width: 90%;
+}
+td{
+    padding: 3px 10px;
+    color: #666666;
+    font-size: 14px;
+}
+.useful-links{
+    flex: 2;
+}
+.catagories-link{
+    flex: 3;
+}
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.row-2>p{
+    text-align: justify;
+    color: #666666;
+    font-size: 12px;
+    width: 35%;
+}
+.btn-download{
+    background-color: #1c394e;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+.download-section>p{
+    color: #666666;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 16px;
+}
+.row-3{
+    color: #666666;
+    font-size: 13px;
+    text-align: justify;
+    padding: 10px;
+}
+.social{
+    display: flex;
+}
+.social-btn{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-inline: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    nav, .row-1, .row-2{
+        flex-direction: column !important;
+    }
+    .vertical-line, .hero-section>img{
+        display: none !important;
+    }
+    .row-2>p, .search-div{
+        width: 90%;
+    }
+    .row-1>div, .my-container{
+        margin-top: 20px;
+    }
+    .row-1>div>h2, .row-1>div>h3{
+        text-align: center;
+    }
+    td{
+        text-align: center;
+    }
+    .social{
+        margin-top: 10px;
+    }
+}
