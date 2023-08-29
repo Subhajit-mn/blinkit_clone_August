@@ -57,7 +57,7 @@
 .catagory-section{
     width: 90%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .catagory-section-row{
     margin-top: 20px;
@@ -71,6 +71,7 @@
 .my-card{
     width: 179px;
     margin-inline: 10px;
+    margin-top: 40px;
 }
 .my-card-time{
     width: fit-content;
@@ -109,6 +110,7 @@
 .my-footer{
     width: 90%;
     margin: auto;
+    margin-top: 40px;
 }
 .row-1{
     margin-top: 20px;
@@ -134,6 +136,7 @@ td{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    margin-top: 40px;
 }
 .row-2>p{
     text-align: justify;
